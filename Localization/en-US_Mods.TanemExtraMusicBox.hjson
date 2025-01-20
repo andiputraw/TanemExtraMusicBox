@@ -1,0 +1,48 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	sword: {
+		DisplayName: sword
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	SufferingLeaves: {
+		DisplayName: Music Box (Suffering Leaves)
+		Tooltip: Have Fun :)
+	}
+
+	BizvilleRailways: {
+		DisplayName: Music Box (Bizville Railways)
+		Tooltip: ""
+	}
+
+	Music: {
+		DisplayName: Music
+		Tooltip: ""
+	}
+
+	NetzachBattle1: {
+		DisplayName: Music Box (Netzach Battle1)
+		Tooltip: ""
+	}
+
+	SoothingOfSoulAndSand: {
+		DisplayName: Music Box (Soothing Of Soul And Sand)
+		Tooltip: ""
+	}
+
+	SpringtimeInAMirror: {
+		DisplayName: Music Box (Springtime In A Mirror)
+		Tooltip: ""
+	}
+
+	TanemEssence: {
+		DisplayName: Tanem Essence
+		Tooltip: ""
+	}
+}

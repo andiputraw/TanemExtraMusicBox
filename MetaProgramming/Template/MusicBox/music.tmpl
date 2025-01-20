@@ -1,0 +1,23 @@
+/*
+    Generated code using the cli with argument
+    {{.MusicBoxName}} {{.MusicName}}
+*/
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace TanemExtraMusicBox.Content.Items.MusicBox.{{.MusicBoxName }}
+{
+	public class {{.MusicBoxName}} : ModItem
+	{
+		public override void SetStaticDefaults() {
+			ItemID.Sets.CanGetPrefixes[Type] = false; 
+			ItemID.Sets.ShimmerTransformToItem[Type] = ItemID.MusicBox; 
+
+			MusicLoader.AddMusicBox(Mod, MusicLoader.GetMusicSlot(Mod, "Assets/Music/{{.MusicName}}"), ModContent.ItemType<{{.MusicBoxName}}>(), ModContent.TileType<{{.TileName}}>());
+		}
+
+		public override void SetDefaults() {
+			Item.DefaultToMusicBox(ModContent.TileType<{{.TileName}}>(), 0);
+		}
+	}
+}
