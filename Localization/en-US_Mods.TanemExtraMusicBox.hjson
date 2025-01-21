@@ -43,6 +43,6 @@ Items: {
 
 	TanemEssence: {
 		DisplayName: Tanem Essence
-		Tooltip: ""
+		Tooltip: "\t"
 	}
 }
