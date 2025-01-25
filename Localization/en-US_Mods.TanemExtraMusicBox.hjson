@@ -43,6 +43,21 @@ Items: {
 
 	TanemEssence: {
 		DisplayName: Tanem Essence
-		Tooltip: "\t"
+		Tooltip: We grow
+	}
+
+	MimigaTown: {
+		DisplayName: Music Box (Mimiga Town)
+		Tooltip: ""
+	}
+
+	PeaceOfMind: {
+		DisplayName: Music Box (Peace Of Mind)
+		Tooltip: ""
+	}
+
+	SkyrimThemeSong: {
+		DisplayName: Music Box (Skyrim Theme Song)
+		Tooltip: ""
 	}
 }

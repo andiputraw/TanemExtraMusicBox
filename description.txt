@@ -1,12 +1,16 @@
 A collection of music box created by us to listen our favorite music in the game.
 
-This mod add 5 Music Box that may be created early in the game.
+This mod add couple Music Box that may be created early in the game.
 
 Changelog
 
+v0.2
+    - Changed music format from wav to mp3
+    - Updated Soothing of Soul and Sand music box Sprites
+    - Added 3 Music box
 
 v0.1
-    Initial release with 5 Custom Music Box
+    - Initial release with 5 Custom Music Box
 
 Developed by: andiputraw
 

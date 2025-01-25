@@ -82,7 +82,8 @@ func main() {
 		log.Fatalf("Cannot get current work directory\n")
 	}
 
-	paths := strings.Split(cwd, "/")
+	paths := strings.Split(cwd, string(os.PathSeparator))
+	log.Printf("%v", paths)
 	if paths[len(paths)-1] != ModName {
 		log.Fatalf("Please execute on the root of the mod file")
 	}
