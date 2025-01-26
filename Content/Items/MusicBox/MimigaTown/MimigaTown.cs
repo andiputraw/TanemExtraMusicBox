@@ -19,5 +19,13 @@ namespace TanemExtraMusicBox.Content.Items.MusicBox.MimigaTown
 		public override void SetDefaults() {
 			Item.DefaultToMusicBox(ModContent.TileType<MimigaTownTile>(), 0);
 		}
+
+		public override void AddRecipes()
+        {
+            CreateRecipe(1)
+				.AddIngredient<Materials.TanemEssence.TanemEssence>(3)
+				.AddTile(TileID.Trees)
+			.Register();
+        }
 	}
 }

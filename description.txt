@@ -4,6 +4,10 @@ This mod add couple Music Box that may be created early in the game.
 
 Changelog
 
+v0.21
+    - Make uncraftable music box craftable
+    - Changed mod icon
+
 v0.2
     - Changed music format from wav to mp3
     - Updated Soothing of Soul and Sand music box Sprites
