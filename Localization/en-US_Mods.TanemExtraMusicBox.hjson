@@ -60,4 +60,34 @@ Items: {
 		DisplayName: Music Box (Skyrim Theme Song)
 		Tooltip: ""
 	}
+
+	ChasedBattleTheme: {
+		DisplayName: Music Box (Chased Battle Theme)
+		Tooltip: ""
+	}
+
+	PeaceOfAkatosh: {
+		DisplayName: Music Box (Peace Of Akatosh)
+		Tooltip: ""
+	}
+
+	ReignOfTheSeptims: {
+		DisplayName: Music Box (Reign Of The Septims)
+		Tooltip: ""
+	}
+
+	Teleportations: {
+		DisplayName: Music Box (Teleportations)
+		Tooltip: ""
+	}
+
+	Answer: {
+		DisplayName: Music Box (Answer)
+		Tooltip: '''"I love Koishi Komeiji" -Infy'''
+	}
+
+	RedLikeRoses: {
+		DisplayName: Music Box (Red Like Roses)
+		Tooltip: It's also a gun
+	}
 }

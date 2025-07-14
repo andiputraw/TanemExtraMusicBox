@@ -4,6 +4,12 @@ This mod add couple Music Box that may be created early in the game.
 
 Changelog
 
+v0.41
+    - Updated a music box sprits
+
+v0.40
+    - Added 5 Music Box
+
 v0.21
     - Make uncraftable music box craftable
     - Changed mod icon

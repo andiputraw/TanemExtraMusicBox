@@ -83,12 +83,13 @@ func main() {
 	}
 
 	paths := strings.Split(cwd, string(os.PathSeparator))
-	log.Printf("%v", paths)
+	
 	if paths[len(paths)-1] != ModName {
 		log.Fatalf("Please execute on the root of the mod file")
 	}
 
 	if len(os.Args) < 2 {
+		ListOfCommand()
 		log.Fatalf("Command not provided")
 	}
 	program = os.Args[0]
@@ -110,6 +111,10 @@ type MusicTemplateParam struct {
 	MusicBoxName string
 	TileName     string
 	MusicName    string
+}
+
+func ListOfCommand() {
+	log.Printf("music [music box name] [music name] - Create a music box with the given name and music name")
 }
 
 func MusicHelp() {
